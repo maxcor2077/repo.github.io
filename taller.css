@@ -1,0 +1,35 @@
+button{
+    background-color: navy;
+    color: aquamarine;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    box-shadow: 5px 10px 12px rgb(42, 206, 228);
+
+    position: absolute;
+    top: 50%;
+    left: 47%;
+
+    cursor: pointer;
+}
+button:hover{
+    background-color: aquamarine;
+    color: navy;
+}
+img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0%;
+    right: 1%;
+}
+img:hover{
+    opacity: 0.5;
+}
+p{
+    position: absolute;
+    right: 35%;
+    top: 10% ;
+}
